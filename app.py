@@ -1,19 +1,24 @@
-from flask import Flask, render_template, jsonify
+from flask import Flask, render_template, send_file
 import pandas as pd
 
 app = Flask(__name__)
 
-@app.route('/')
-def index():
-    return render_template('index.html')
+# Load seating data
+seating_file = "students_guests_seating.csv"
+seating_data = pd.read_csv(seating_file)
 
-@app.route('/students')
-def students():
-    # Load student data from CSV
-    df = pd.read_csv('students.csv')
-    # Convert the DataFrame to a dictionary
-    students_data = df.to_dict(orient='records')
-    return jsonify(students_data)
+# Create route to display the seating chart
+@app.route("/")
+def seating_chart():
+    rows = []
+    for _, row in seating_data.iterrows():
+        rows.append(row.to_dict())  # Convert rows to dictionary for template rendering
+    return render_template("seating_chart.html", rows=rows)
 
-if __name__ == '__main__':
+# Route to download the CSV
+@app.route("/download")
+def download_csv():
+    return send_file(seating_file, as_attachment=True)
+
+if __name__ == "__main__":
     app.run(debug=True)

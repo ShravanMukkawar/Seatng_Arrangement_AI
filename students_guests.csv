@@ -4,7 +4,7 @@ MIS No,Name,Branch,Type
 612405003,ADNANABBAS,ElectricalEngineering,Guest
 612405004,AGRAWALTANMAYRAVINDRA,ElectricalEngineering,Guest
 612405005,AHIRESOHAMKIRAN,ElectricalEngineering,Guest
-612405006,AHMEDAMEEN,ElectricalEngineering,Guest
+612405006,AHMEDAMEEN,ElectricalEngineering,Gold
 612405007,AJAYGHULE,ElectricalEngineering,Guest
 612405008,AKSHAYDATTATRAYKADAM,ElectricalEngineering,Guest
 612405009,AMEYBHALERAO,ElectricalEngineering,Guest
@@ -109,7 +109,7 @@ MIS No,Name,Branch,Type
 612406009,AISHWARYAKHATIK,CivilEngineering,Student
 612406010,ALISHBAKADAM,CivilEngineering,Student
 612406011,ANKITBANSAL,CivilEngineering,Student
-612406012,ANSHIKARAY,CivilEngineering,Student
+612406012,ANSHIKARAY,CivilEngineering,Gold
 612406013,ANUPAMAPARIDA,CivilEngineering,Student
 612406014,ARHADWANI,CivilEngineering,Student
 612406015,AURADKARRAJ,CivilEngineering,Student
@@ -200,7 +200,7 @@ MIS No,Name,Branch,Type
 612407005,ADITYAADHIKARY,ComputerEngineering,Student
 612407006,ADITYABAKSHI,ComputerEngineering,Student
 612407007,ADITYAJOSHI,ComputerEngineering,Student
-612407008,ADITYAPANDIT,ComputerEngineering,Student
+612407008,ADITYAPANDIT,ComputerEngineering,Gold
 612407009,AHMEDHAZRAT,ComputerEngineering,Student
 612407010,AHMEDOBAID,ComputerEngineering,Student
 612407011,ALIANISHA,ComputerEngineering,Student
@@ -287,3 +287,13 @@ MIS No,Name,Branch,Type
 612407092,SONALDUBEY,ComputerEngineering,Student
 612407093,TARUNKANDE,ComputerEngineering,Student
 612407094,VIKASMISHRA,ComputerEngineering,Student
+1,Ramesh Kulkarni,Computer,Faculty
+2,Anjali Sharma,Mathematics,Faculty  
+3,Amitabh Verma,Physics,Faculty  
+4,Sneha Desai,Chemistry,Faculty  
+5,Vikram Gupta,Electrical,Faculty  
+6,Meera Nair,Mechanical,Faculty  
+7,Rajeshwar Singh,Civil,Faculty  
+8,Kavita Joshi,Electronics,Faculty  
+9,Prakash Yadav,Biotechnology,Faculty  
+10,Neha Chaudhari,IT,Faculty  
