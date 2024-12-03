@@ -4,7 +4,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Load seating data
-seating_file = "students_guests_seating.csv"
+seating_file = "students_guests_seating_ga.csv"
 seating_data = pd.read_csv(seating_file)
 
 # Create route to display the seating chart
